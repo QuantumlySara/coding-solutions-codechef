@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	ios_base::sync_with_stdio(false);
+	int T;
+	cin>>T;
+	while(T--){
+	    int N , X , total_cost ;
+	    cin>>N>>X;
+	    int subscription=N/6;
+	    if(N%6>0){
+	         total_cost=subscription*X+X;
+	    }
+	    else{
+	         total_cost=subscription*X;
+	    }
+	   
+	    cout<<total_cost<<"\n";
+	    
+	}
+
+}
