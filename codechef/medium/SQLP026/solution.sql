@@ -1,2 +1,3 @@
 -- your code goes here
-select AVG(required_level) from Quests;
+select level,sum(experience_points) from players 
+group by level;
