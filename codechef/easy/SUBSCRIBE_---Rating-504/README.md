@@ -47,12 +47,12 @@ Output
 
 ## Solution
 
-**Language:** C++  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T05:54:49.808Z  
+**Submitted:** 2026-08-24T05:55:00.952Z  
 
-```cpp
+```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -61,8 +61,17 @@ int main() {
 	int T;
 	cin>>T;
 	while(T--){
-	    int N , X;
+	    int N , X , total_cost ;
 	    cin>>N>>X;
+	    int subscription=N/6;
+	    if(N%6>0){
+	         total_cost=subscription*X+X;
+	    }
+	    else{
+	         total_cost=subscription*X;
+	    }
+	   
+	    cout<<total_cost<<"\n";
 	    
 	}
 
