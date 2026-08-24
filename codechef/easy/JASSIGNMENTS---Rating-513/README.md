@@ -45,17 +45,30 @@ No
 
 ## Solution
 
-**Language:** C++  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T06:05:30.276Z  
+**Submitted:** 2026-08-24T06:05:45.096Z  
 
-```cpp
+```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
 	// your code goes here
+	ios_base::sync_with_stdio(false);
+	int t;
+	cin>>t;
+	while(t--){
+	    int x;
+	    cin>>x;
+	    int t=3;
+	    int d=10-x;
+	    if(d<3)
+	    cout<<"No\n";
+	    else
+	    cout<<"Yes\n";
+	}
 
 }
 
