@@ -45,12 +45,12 @@ No
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T06:05:45.096Z  
+**Submitted:** 2026-08-24T06:07:13.613Z  
 
-```c_cpp
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
