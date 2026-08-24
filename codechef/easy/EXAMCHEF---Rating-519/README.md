@@ -65,7 +65,7 @@ Thus, number of students who passed are $50\%$, which is equal to $50\%$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T06:52:41.500Z  
+**Submitted:** 2026-08-24T06:51:10.000Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -74,13 +74,12 @@ using namespace std;
 int main() {
 	int t;
 	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
 	cin>>t;
 	while(t--){
 	    int x ,y ,z ;
 	    cin>>x>>y>>z;
 	    int total_student=x*y;
-	    if(2*z>total_student)
+	    if(z>total_student/2)
 	    cout<<"Yes\n";
 	    else
 	    cout<<"No\n";
